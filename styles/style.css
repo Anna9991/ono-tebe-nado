@@ -54,6 +54,9 @@
 .cover {
   z-index: -1;
   background: url(../images/cover.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .overlay {
@@ -64,8 +67,8 @@
   z-index: 1;
   display: flex;
   flex-direction: column;
-  padding: 165px 50px 135px; 
-  color: #fff;
+  padding: 165px 50px 135px;
+  color: #fff; 
   font-weight: 700;
   font-size: 100px;
   letter-spacing: 0.3em; 
@@ -132,18 +135,18 @@
 .about {
   display: grid;
   grid-template-columns: 240px 1fr;
-  column-gap: 72px;
   row-gap: 10px;
+  column-gap: 72px;
   padding: 0px 24px 180px 71px;
 }
 
 .about__logo {
-  border-radius: 240px;
-  background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 35px;
+  border-radius: 240px;
+  background-color: black;
 }
 
 .about__logo-image {
