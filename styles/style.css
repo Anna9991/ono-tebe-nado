@@ -236,16 +236,15 @@
 .about {
   display: grid;
   grid-template-columns: 240px 1fr;
-  row-gap: 10px;
+  row-gap: 4px;
   column-gap: 72px;
-  padding: 0px 24px 180px 71px;
+  padding: 35px 24px 180px 71px;
 }
 
 .about__logo {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 35px;
   border-radius: 240px;
   background-color: black;
 }
@@ -257,7 +256,7 @@
 
 .about__title {
   align-self: center;
-  margin: 136px 402px 90px 0;
+  padding: 100px 0;
   font-weight: 700;
   font-size: 40px;
   line-height: 1.17;
